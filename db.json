@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Samuel",
+      "lastName": "Adetsi",
+      "email": "grinder@gmail.com",
+      "mobile": "0203051771",
+      "salary": 2000
+    },
+    {
+      "id": 2,
+      "firstName": "Justice",
+      "lastName": "Asare",
+      "email": "jay@gmail.com",
+      "mobile": "0203451871",
+      "salary": 2000
+    },
+    {
+      "id": 3,
+      "firstName": "Andrews",
+      "lastName": "Acheampong",
+      "email": "andy@gmail.com",
+      "mobile": "0223059671",
+      "salary": 2000
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullName": "Samuel Adetsi",
+      "username": "grinder",
+      "email": "grinder@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fullName": "Justice Owusu Asare",
+      "username": "jay",
+      "email": "jay@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fullName": "Fati Yahaya",
+      "username": "Fatash",
+      "email": "fati@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}
