@@ -21,7 +21,10 @@
         </div>
     </div>
 
-   <h1>{{ttl}}</h1>
+
+    
+   <!-- <h1>{{ttl}}</h1> -->
+   <h1>Hello Grinder</h1>
     
     <br>
     <fieldset  class="form-group border p-3">
@@ -34,6 +37,8 @@
         <br>
     
         <table class="table">
+
+          
             <thead>
               <tr>
                 <th>TICKER</th>
@@ -47,7 +52,7 @@
             </thead>
             <tbody>
                 
-             <tr *ngFor="let md of marketDataExchange1">
+             <tr *ngFor="let md of exchange1">
                 <td>{{md.TICKER}}</td>
                 <td>{{md.LAST_TRADED_PRICE}}</td>
                 <td>{{md.SELL_LIMIT}}</td>
@@ -67,6 +72,8 @@
         
     
     </fieldset>
+
+   
 
     <br>
     <fieldset  class="form-group border p-3">
@@ -92,7 +99,7 @@
             </thead>
             <tbody>
                 
-             <tr *ngFor="let md of marketDataExchange2">
+             <tr *ngFor="let md of exchange2">
                 <td>{{md.TICKER}}</td>
                 <td>{{md.LAST_TRADED_PRICE}}</td>
                 <td>{{md.SELL_LIMIT}}</td>
