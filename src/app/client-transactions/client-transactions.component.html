@@ -1,0 +1,117 @@
+
+<div class="container">
+    <nav class="navbar navbar-light"  [ngStyle]="{'background':'white','color':'#1f3560'}">
+        <div class="container-fluid">
+            <h1 >Client Transactions</h1>
+            <div>
+                <span><h3>Abdul-Rahman</h3></span>
+            </div>
+            <div class="d-flex">
+              <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+            </div>
+        </div>
+
+        
+    </nav>
+    <hr class="my-1">
+
+    <br><br>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center dashboard-links">
+        
+            <a routerLink="/dashboard"><i class="far fa-chart-bar  fa-3x" ></i></a>
+            <a routerLink="/market-data"><i  class="fas fa-chart-line  fa-3x" ></i></a>
+            <a routerLink="/transaction"><i class="fab fa-stack-exchange fa-3x" style="border-bottom: 5px solid coral;"></i></a>
+    
+        </div>
+    </div>
+    
+    <br>
+    <fieldset  class="form-group border p-3">
+
+        <div class="row">
+            <legend class="w-auto px-2 col-2">Transactions</legend>
+            <div class="col-8"></div>
+        
+        </div>
+        <br>
+
+       
+        
+        
+        <table class="table">
+            <thead>
+              <tr>
+                <th>TRANSACTION ID</th>
+                <th>START DATE</th>
+                <th>END DATE</th>
+                <th>SECURITY</th>
+                <th>ACTION</th>
+                <th>UNITS</th>
+                <th>PRICE</th>
+                <th>VALUE</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>hjkas677323jklks</td>
+                <td>2nd December, 2021</td>
+                <td>2nd December, 2021</td>
+                <td>AAPL</td>
+                <td>BUY</td>
+                <td>50</td>
+                <td>1</td>
+                <td>Ghs50</td>
+                <td><span class="badge badge-danger">Cancelled</span></td>
+              </tr>
+              <tr>
+                <td>tqyq7223faaas</td>
+                <td>2nd December, 2021</td>
+                <td>2nd December, 2021</td>
+                <td>TSLA</td>
+                <td>SELL</td>
+                <td>50</td>
+                <td>1</td>
+                <td>Ghs50</td>
+                <td><span class="badge badge-info">Processing</span></td>
+              </tr>
+              <tr>
+                <td>gfgagfa5671gfga</td>
+                <td>2nd December, 2021</td>
+                <td>2nd December, 2021</td>
+                <td>IBM</td>
+                <td>BUY</td>
+                <td>50</td>
+                <td>1</td>
+                <td>Ghs50</td>
+                <td><span class="badge badge-success">Completed</span></td>
+              </tr>
+              <tr>
+                <td>gfa77798723vaa</td>
+                <td>2nd December, 2021</td>
+                <td>2nd December, 2021</td>
+                <td>AAPL</td>
+                <td>SELL</td>
+                <td>50</td>
+                <td>1</td>
+                <td>Ghs50</td>
+                <td><span class="badge badge-info">Processing</span></td>
+              </tr>
+             
+            </tbody>
+          </table>
+
+
+  
+ 
+
+          
+        
+    
+    </fieldset>
+
+  
+
+
+</div>

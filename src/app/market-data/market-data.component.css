@@ -1,0 +1,12 @@
+.dashboard-links{
+    /* color: red; */
+    
+}
+
+.dashboard-links > a, h1{
+    margin-right: 30px;
+    text-decoration: none;
+    color:hsla(205, 46%, 30%, 1);
+    
+
+}
