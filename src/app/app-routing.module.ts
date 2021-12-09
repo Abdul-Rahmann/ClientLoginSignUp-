@@ -5,12 +5,13 @@ import { ClientTransactionsComponent } from './client-transactions/client-transa
 import { LoginComponent } from './login/login.component';
 import { MarketDataComponent } from './market-data/market-data.component';
 import { SignupComponent } from './signup/signup.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   {path:'', redirectTo:'login',pathMatch:'full'},
   {path:'login',component:LoginComponent},
   {path:'signup', component:SignupComponent},
-  {path:'dashboard', component:ClientDashboardComponent},
+  {path:'dashboard', component:ClientDashboardComponent, canActivate:[AuthGuard]}, //Login session
   {path:'market-data', component:MarketDataComponent},
   {path:'transaction', component:ClientTransactionsComponent}
 ];

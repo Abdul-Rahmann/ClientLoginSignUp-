@@ -60,10 +60,303 @@
       "email": "owusufaith@gmail.com",
       "password": "JCb4lyf",
       "id": 5
+    },
+    {
+      "fullName": "George Hanson",
+      "username": "Hans",
+      "email": "hans@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "fullName": "yolo",
+      "username": "yolo",
+      "email": "y@gmail.com",
+      "password": "1234",
+      "id": 7
     }
   ],
-  "portfolio":[],
-  "products":[],
-  "exchange1":[{"LAST_TRADED_PRICE":0.8,"SELL_LIMIT":5000,"BID_PRICE":0.11,"ASK_PRICE":0.8,"BUY_LIMIT":10000,"TICKER":"MSFT","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":0.1,"SELL_LIMIT":5000,"BID_PRICE":0.15,"ASK_PRICE":1.0,"BUY_LIMIT":10000,"TICKER":"NFLX","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":1,"SELL_LIMIT":5000,"BID_PRICE":1.5,"ASK_PRICE":0.7,"BUY_LIMIT":10000,"TICKER":"GOOGL","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":0.5,"SELL_LIMIT":5000,"BID_PRICE":0.5,"ASK_PRICE":0.45,"BUY_LIMIT":10000,"TICKER":"AAPL","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":1.5,"SELL_LIMIT":5000,"BID_PRICE":1.5,"ASK_PRICE":1.5,"BUY_LIMIT":10000,"TICKER":"TSLA","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":0.5,"SELL_LIMIT":5000,"BID_PRICE":0.7,"ASK_PRICE":1.0,"BUY_LIMIT":10000,"TICKER":"IBM","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":0.5,"SELL_LIMIT":5000,"BID_PRICE":0.8,"ASK_PRICE":0.6,"BUY_LIMIT":10000,"TICKER":"ORCL","MAX_PRICE_SHIFT":1},{"LAST_TRADED_PRICE":1.0,"SELL_LIMIT":5000,"BID_PRICE":1.5,"ASK_PRICE":0.02,"BUY_LIMIT":10000,"TICKER":"AMZN","MAX_PRICE_SHIFT":1}],
-  "exchange2":[{"BID_PRICE":0.11,"ASK_PRICE":0.11,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"MSFT","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":0.11},{"BID_PRICE":1.0,"ASK_PRICE":1.0,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"NFLX","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":1.0},{"BID_PRICE":0.51,"ASK_PRICE":0.6,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"GOOGL","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":0.6},{"BID_PRICE":1.45,"ASK_PRICE":0.5,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"AAPL","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":0.5},{"BID_PRICE":1.45,"ASK_PRICE":0,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"TSLA","MAX_PRICE_SHIFT":3,"LAST_TRADED_PRICE":0},{"BID_PRICE":1.0,"ASK_PRICE":0.7,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"IBM","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":0.7},{"BID_PRICE":0,"ASK_PRICE":1,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"ORCL","MAX_PRICE_SHIFT":5,"LAST_TRADED_PRICE":0},{"BID_PRICE":1.45,"ASK_PRICE":2.0,"BUY_LIMIT":10000,"SELL_LIMIT":5000,"TICKER":"AMZN","MAX_PRICE_SHIFT":1,"LAST_TRADED_PRICE":1.4}]
+  "portfolio": [
+    {
+      "portfolioName": null,
+      "id": 1
+    },
+    {
+      "portfolioName": "Portfolio1",
+      "id": 2
+    },
+    {
+      "portfolioName": "New Portfolio",
+      "id": 3
+    },
+    {
+      "portfolioName": null,
+      "id": 4
+    },
+    {
+      "portfolioName": "Another",
+      "id": 5
+    },
+    {
+      "portfolioName": "yolo",
+      "id": 6
+    },
+    {
+      "portfolioName": "5",
+      "id": 7
+    },
+    {
+      "portfolioName": "dsds",
+      "id": 8
+    },
+    {
+      "portfolioName": "585",
+      "id": 9
+    },
+    {
+      "portfolioName": "sdsa",
+      "id": 10
+    },
+    {
+      "portfolioName": "dsdfrsd",
+      "id": 11
+    },
+    {
+      "portfolioName": "adsa",
+      "id": 12
+    },
+    {
+      "portfolioName": "New Portfolio",
+      "id": 13
+    },
+    {
+      "portfolioName": "ano",
+      "userId": null,
+      "id": 14
+    },
+    {
+      "portfolioName": "rwerw",
+      "userId": "4",
+      "id": 15
+    },
+    {
+      "portfolioName": "yolo",
+      "userId": "",
+      "id": 16
+    },
+    {
+      "portfolioName": "opp",
+      "userId": "",
+      "id": 17
+    },
+    {
+      "portfolioName": "ghh",
+      "userId": "",
+      "id": 18
+    },
+    {
+      "portfolioName": "fdfg",
+      "userId": "",
+      "id": 19
+    },
+    {
+      "portfolioName": "Pot",
+      "userId": "",
+      "id": 20
+    },
+    {
+      "portfolioName": "grinder",
+      "userId": 89,
+      "id": 21
+    },
+    {
+      "portfolioName": "pppp",
+      "userId": null,
+      "id": 22
+    },
+    {
+      "portfolioName": "ride",
+      "userId": 89,
+      "id": 23
+    },
+    {
+      "portfolioName": "yoloy",
+      "userId": null,
+      "id": 24
+    },
+    {
+      "portfolioName": "sd",
+      "userId": null,
+      "id": 25
+    },
+    {
+      "portfolioName": "ride",
+      "userId": 89,
+      "id": 26
+    },
+    {
+      "portfolioName": "sds",
+      "userId": 89,
+      "id": 27
+    },
+    {
+      "portfolioName": "wqwq",
+      "userId": 89,
+      "id": 28
+    },
+    {
+      "portfolioName": "jhsds",
+      "userId": 89,
+      "id": 29
+    }
+  ],
+  "products": [],
+  "exchange1": [
+    {
+      "LAST_TRADED_PRICE": 0.8,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 0.11,
+      "ASK_PRICE": 0.8,
+      "BUY_LIMIT": 10000,
+      "TICKER": "MSFT",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 0.1,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 0.15,
+      "ASK_PRICE": 1,
+      "BUY_LIMIT": 10000,
+      "TICKER": "NFLX",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 1,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 1.5,
+      "ASK_PRICE": 0.7,
+      "BUY_LIMIT": 10000,
+      "TICKER": "GOOGL",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 0.5,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 0.5,
+      "ASK_PRICE": 0.45,
+      "BUY_LIMIT": 10000,
+      "TICKER": "AAPL",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 1.5,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 1.5,
+      "ASK_PRICE": 1.5,
+      "BUY_LIMIT": 10000,
+      "TICKER": "TSLA",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 0.5,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 0.7,
+      "ASK_PRICE": 1,
+      "BUY_LIMIT": 10000,
+      "TICKER": "IBM",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 0.5,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 0.8,
+      "ASK_PRICE": 0.6,
+      "BUY_LIMIT": 10000,
+      "TICKER": "ORCL",
+      "MAX_PRICE_SHIFT": 1
+    },
+    {
+      "LAST_TRADED_PRICE": 1,
+      "SELL_LIMIT": 5000,
+      "BID_PRICE": 1.5,
+      "ASK_PRICE": 0.02,
+      "BUY_LIMIT": 10000,
+      "TICKER": "AMZN",
+      "MAX_PRICE_SHIFT": 1
+    }
+  ],
+  "exchange2": [
+    {
+      "BID_PRICE": 0.11,
+      "ASK_PRICE": 0.11,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "MSFT",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 0.11
+    },
+    {
+      "BID_PRICE": 1,
+      "ASK_PRICE": 1,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "NFLX",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 1
+    },
+    {
+      "BID_PRICE": 0.51,
+      "ASK_PRICE": 0.6,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "GOOGL",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 0.6
+    },
+    {
+      "BID_PRICE": 1.45,
+      "ASK_PRICE": 0.5,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "AAPL",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 0.5
+    },
+    {
+      "BID_PRICE": 1.45,
+      "ASK_PRICE": 0,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "TSLA",
+      "MAX_PRICE_SHIFT": 3,
+      "LAST_TRADED_PRICE": 0
+    },
+    {
+      "BID_PRICE": 1,
+      "ASK_PRICE": 0.7,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "IBM",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 0.7
+    },
+    {
+      "BID_PRICE": 0,
+      "ASK_PRICE": 1,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "ORCL",
+      "MAX_PRICE_SHIFT": 5,
+      "LAST_TRADED_PRICE": 0
+    },
+    {
+      "BID_PRICE": 1.45,
+      "ASK_PRICE": 2,
+      "BUY_LIMIT": 10000,
+      "SELL_LIMIT": 5000,
+      "TICKER": "AMZN",
+      "MAX_PRICE_SHIFT": 1,
+      "LAST_TRADED_PRICE": 1.4
+    }
+  ]
 }
