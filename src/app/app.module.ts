@@ -12,9 +12,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ClientTransactionsComponent } from './client-transactions/client-transactions.component';
 import { AuthGuard } from './guards/auth.guard';
 // import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
-import { AdminDashboardComponent } from './admin-logs/admin-dashboard/admin-dashboard.component';
+// import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard.component';
+import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard.component';
 import { AdminLogsComponent } from './admin-logs/admin-logs.component';
 import { AdminUsersComponent } from './admin-users/admin-users.component';
+import { AdminTransactionsComponent } from './ADMIN/admin-transactions/admin-transactions.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { AdminUsersComponent } from './admin-users/admin-users.component';
     ClientTransactionsComponent,
     AdminDashboardComponent,
     AdminLogsComponent,
-    AdminUsersComponent
+    AdminUsersComponent,
+    AdminTransactionsComponent
   ],
   imports: [
     BrowserModule,
