@@ -7,6 +7,9 @@ import { MarketDataComponent } from './market-data/market-data.component';
 import { SignupComponent } from './signup/signup.component';
 import { AuthGuard } from './guards/auth.guard';
 import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard.component';
+import { AdminUsersComponent } from './ADMIN/admin-users/admin-users.component';
+import { AdminTransactionsComponent } from './ADMIN/admin-transactions/admin-transactions.component';
+import { AdminLogsComponent } from './ADMIN/admin-logs/admin-logs.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login',pathMatch:'full'},
@@ -15,7 +18,11 @@ const routes: Routes = [
   {path:'dashboard', component:ClientDashboardComponent, canActivate:[AuthGuard]}, //Login session
   {path:'market-data', component:MarketDataComponent},
   {path:'transaction', component:ClientTransactionsComponent},
-  {path:'admin', component:AdminDashboardComponent}
+  {path:'admin', component:AdminDashboardComponent},
+  {path:'admin-logs', component:AdminLogsComponent},
+  {path:'admin-transaction', component:AdminTransactionsComponent},
+  {path:'admin-users', component:AdminUsersComponent},
+
 ];
 
 @NgModule({

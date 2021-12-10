@@ -14,8 +14,8 @@ import { AuthGuard } from './guards/auth.guard';
 // import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 // import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard.component';
 import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard.component';
-import { AdminLogsComponent } from './admin-logs/admin-logs.component';
-import { AdminUsersComponent } from './admin-users/admin-users.component';
+import { AdminLogsComponent } from './ADMIN/admin-logs/admin-logs.component';
+import { AdminUsersComponent } from './ADMIN/admin-users/admin-users.component';
 import { AdminTransactionsComponent } from './ADMIN/admin-transactions/admin-transactions.component';
 
 @NgModule({
