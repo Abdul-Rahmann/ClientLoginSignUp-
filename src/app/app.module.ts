@@ -11,6 +11,10 @@ import { SignupComponent } from './signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ClientTransactionsComponent } from './client-transactions/client-transactions.component';
 import { AuthGuard } from './guards/auth.guard';
+// import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { AdminDashboardComponent } from './admin-logs/admin-dashboard/admin-dashboard.component';
+import { AdminLogsComponent } from './admin-logs/admin-logs.component';
+import { AdminUsersComponent } from './admin-users/admin-users.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,10 @@ import { AuthGuard } from './guards/auth.guard';
     MarketDataComponent,
     LoginComponent,
     SignupComponent,
-    ClientTransactionsComponent
+    ClientTransactionsComponent,
+    AdminDashboardComponent,
+    AdminLogsComponent,
+    AdminUsersComponent
   ],
   imports: [
     BrowserModule,

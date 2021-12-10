@@ -6,6 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { MarketDataComponent } from './market-data/market-data.component';
 import { SignupComponent } from './signup/signup.component';
 import { AuthGuard } from './guards/auth.guard';
+// import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
+import { AdminDashboardComponent } from './admin-logs/admin-dashboard/admin-dashboard.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'login',pathMatch:'full'},
@@ -13,7 +15,8 @@ const routes: Routes = [
   {path:'signup', component:SignupComponent},
   {path:'dashboard', component:ClientDashboardComponent, canActivate:[AuthGuard]}, //Login session
   {path:'market-data', component:MarketDataComponent},
-  {path:'transaction', component:ClientTransactionsComponent}
+  {path:'transaction', component:ClientTransactionsComponent},
+  {path:'admin', component:AdminDashboardComponent}
 ];
 
 @NgModule({

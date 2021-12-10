@@ -6,6 +6,7 @@
       "lastName": "Adetsi",
       "email": "grinder@gmail.com",
       "mobile": "0203051771",
+      "role": "ADMIN",
       "salary": 2000
     },
     {
@@ -14,6 +15,7 @@
       "lastName": "Asare",
       "email": "jay@gmail.com",
       "mobile": "0203451871",
+      "role": "CLIENT",
       "salary": 2000
     },
     {
@@ -22,58 +24,26 @@
       "lastName": "Acheampong",
       "email": "andy@gmail.com",
       "mobile": "0223059671",
+      "role": "CLIENT",
       "salary": 2000
     }
   ],
   "signupUsers": [
     {
-      "fullName": "Samuel Adetsi",
-      "username": "grinder",
+      "fullName": "Abdul-Rahman Adetsi",
+      "username": "Grinder",
       "email": "grinder@gmail.com",
       "password": "1234",
+      "role": "ADMIN",
       "id": 1
     },
     {
-      "fullName": "Justice Owusu Asare",
-      "username": "jay",
-      "email": "jay@gmail.com",
+      "fullName": "test",
+      "username": "test",
+      "email": "test@gmail.com",
       "password": "1234",
+      "role": "CLIENT",
       "id": 2
-    },
-    {
-      "fullName": "Fati Yahaya",
-      "username": "Fatash",
-      "email": "fati@gmail.com",
-      "password": "123456",
-      "id": 3
-    },
-    {
-      "fullName": "Group19",
-      "username": "group",
-      "email": "group@gmail.com",
-      "password": "1234",
-      "id": 4
-    },
-    {
-      "fullName": "Justice Owusu Asare",
-      "username": "jowusu",
-      "email": "owusufaith@gmail.com",
-      "password": "JCb4lyf",
-      "id": 5
-    },
-    {
-      "fullName": "George Hanson",
-      "username": "Hans",
-      "email": "hans@gmail.com",
-      "password": "1234",
-      "id": 6
-    },
-    {
-      "fullName": "yolo",
-      "username": "yolo",
-      "email": "y@gmail.com",
-      "password": "1234",
-      "id": 7
     }
   ],
   "portfolio": [
@@ -208,6 +178,11 @@
       "portfolioName": "jhsds",
       "userId": 89,
       "id": 29
+    },
+    {
+      "portfolioName": "Newer",
+      "userId": 89,
+      "id": 30
     }
   ],
   "products": [],
