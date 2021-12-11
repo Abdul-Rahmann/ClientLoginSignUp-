@@ -22,6 +22,7 @@ const routes: Routes = [
   {path:'admin-logs', component:AdminLogsComponent},
   {path:'admin-transaction', component:AdminTransactionsComponent},
   {path:'admin-users', component:AdminUsersComponent},
+  // {path:'admin-users', component:AdminDashboardComponent},
 
 ];
 
