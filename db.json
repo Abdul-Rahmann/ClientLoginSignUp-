@@ -44,6 +44,21 @@
       "password": "1234",
       "role": "CLIENT",
       "id": 2
+    },
+    {
+      "firstName": "Richard ",
+      "lastName": "Osei",
+      "email": "tommi@gmail.com",
+      "password": "1234",
+      "role": "CLIENT",
+      "id": 3
+    },
+    {
+      "firstName": "Beliinda",
+      "lastName": "Baiden",
+      "email": "b@gmail.com",
+      "password": "1234",
+      "id": 4
     }
   ],
   "portfolio": [
@@ -188,6 +203,16 @@
       "portfolioName": "New Product",
       "userId": 89,
       "id": 31
+    },
+    {
+      "portfolioName": "nneeww",
+      "userId": 89,
+      "id": 32
+    },
+    {
+      "portfolioName": null,
+      "userId": 89,
+      "id": 33
     }
   ],
   "products": [],

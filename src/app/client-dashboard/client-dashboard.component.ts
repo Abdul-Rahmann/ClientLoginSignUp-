@@ -10,6 +10,8 @@ import { Router } from '@angular/router';
 })
 export class ClientDashboardComponent implements OnInit {
   public portfolioForm!:FormGroup
+  public sellForm!:FormGroup
+  public buyForm!:FormGroup
 
 
   constructor(private formBuilder:FormBuilder, private http:HttpClient, private router:Router) { }
@@ -19,7 +21,25 @@ export class ClientDashboardComponent implements OnInit {
       portfolioName:[null],
       userId:['']
 
-    })
+    });
+
+    this.sellForm = this.formBuilder.group({
+     
+      sellTicker:[null],
+      sellQuantity:[null],
+      sellPrice:[null]
+      
+
+    });
+
+    this.buyForm = this.formBuilder.group({
+    
+      buyTicker:[null],
+      buyQuantity:[null],
+      buyPrice:[null]
+      
+
+    });
     
   }
 
@@ -42,5 +62,23 @@ export class ClientDashboardComponent implements OnInit {
   //   console.log("Logout")
   //   auth
   // }
+
+  sellProduct(){
+    alert("Product sold successfully")
+    console.log(this.sellForm.value.sellTicker)
+    console.log(this.sellForm.value.sellPrice)
+    console.log(this.sellForm.value.sellQuantity)
+    location.reload()
+    
+  }
+
+  buyProduct(){
+    alert("Product bought successfully")
+    console.log(this.buyForm.value.buyTicker)
+    console.log(this.buyForm.value.buyPrice)
+    console.log(this.buyForm.value.buyQuantity)
+    location.reload()
+    
+  }
 
 }

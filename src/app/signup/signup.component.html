@@ -6,31 +6,31 @@
                     <h1>Sign Up</h1>
                     <h6>Please Enter Credentials</h6>
                 </div>
-                <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Full Name</label>
-                        <input formControlName="fullName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full Name">                     
+                        <label for="exampleInputEmail1">First Name</label>
+                        <input [(ngModel)]="user.firstName" name="firstName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">                     
                      </div>
                      <div class="form-group">
-                        <label for="exampleInputEmail1">Username</label>
-                        <input formControlName="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">                     
+                        <label for="exampleInputEmail1">Last Name</label>
+                        <input  [(ngModel)]="user.lastName"  name= "lastName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">                     
                      </div>
                      
                     <div class="form-group">
                       <label for="exampleInputEmail1">Email address</label>
-                      <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <input  [(ngModel)]="user.email" name="email"  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1">Password</label>
-                      <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      <input  [(ngModel)]="user.password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                     
                       <input formControlName="role" type="hidden" class="form-control"   [ngModel]="'CLIENT'">
               
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </div> -->
+                    <button type="button" class="btn btn-primary" (click)="signUp()">Sign Up</button>
                   </form>
                   <a routerLink="/login">Already registered? Click to log in!</a>
             </div>

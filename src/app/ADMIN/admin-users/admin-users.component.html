@@ -23,7 +23,8 @@
     <a routerLink="/admin-users"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Users</span></a>
     <a routerLink="/admin-logs"><span class="glyphicon glyphicon-cog"></span><span class="nav-label">Logs</span></a>
     <a routerLink="/admin-transaction"><span class="glyphicon glyphicon-film"></span><span class="nav-label">Transactions</span></a>
-    <!-- <a href="#"><span class="glyphicon glyphicon-calendar"></span><span class="nav-label">Monitor</span></a> -->
+   
+ 
   </li>
 </ul>
 </nav>
@@ -48,35 +49,22 @@
         <thead>
           <tr>
             <th>USER ID</th>
-            <th>USER NAME</th>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>EMAIL</th>
+            <th>BALANCE</th>
             <th>ROLE</th>
            
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>2</td>
-            <td>Abdul-Rahman</td>
-            <td>ADMIN</td>
-            
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Abdul-Rahman</td>
-            <td>CLIENT</td>
-          
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Justice</td>
-            <td>CLIENT</td>
-          
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Andrews</td>
-            <td>CLIENT</td>
-           
+          <tr *ngFor="let user of users">
+            <td>{{user.id}}</td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.balance}}</td>
+            <td>{{user.role}}</td>
           </tr>
          
         </tbody>

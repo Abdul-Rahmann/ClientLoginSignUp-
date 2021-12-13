@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+// import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-admin-users',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin-users.component.css']
 })
 export class AdminUsersComponent implements OnInit {
+  users:any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    let response = this.http.get("http://localhost:8080/user/getAllUsers")
+    response.subscribe((data) => this.users=data )
   }
 
 }

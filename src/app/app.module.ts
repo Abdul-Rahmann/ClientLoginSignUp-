@@ -17,6 +17,8 @@ import { AdminDashboardComponent } from './ADMIN/admin-dashboard/admin-dashboard
 import { AdminLogsComponent } from './ADMIN/admin-logs/admin-logs.component';
 import { AdminUsersComponent } from './ADMIN/admin-users/admin-users.component';
 import { AdminTransactionsComponent } from './ADMIN/admin-transactions/admin-transactions.component';
+import { User } from './model/user';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,13 +31,16 @@ import { AdminTransactionsComponent } from './ADMIN/admin-transactions/admin-tra
     AdminDashboardComponent,
     AdminLogsComponent,
     AdminUsersComponent,
-    AdminTransactionsComponent
+    AdminTransactionsComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule
+    // HttpClient,
     
     
   ],
