@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Sign Up</h1>
+                    <h6>Please Enter Credentials</h6>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">First Name</label>
+                        <input [(ngModel)]="user.firstName" name="firstName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">                     
+                     </div>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Last Name</label>
+                        <input  [(ngModel)]="user.lastName"  name= "lastName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">                     
+                     </div>
+                     
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input  [(ngModel)]="user.email" name="email"  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input  [(ngModel)]="user.password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <!-- <div class="form-group">
+                    
+                      <input formControlName="role" type="hidden" class="form-control"   [ngModel]="'CLIENT'">
+              
+                    </div> -->
+                    <button type="button" class="btn btn-primary" (click)="signUp()">Sign Up</button>
+                  </form>
+                  <a routerLink="/login">Already registered? Click to log in!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
